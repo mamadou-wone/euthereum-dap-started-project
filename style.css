@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Palatino, URW Palladio L, serif;
+    background-size: cover;
+    font-size: 16px;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(224, 238, 22, 0.699), rgba(24, 117, 94, 0.4)), url(fond5.jpg);
+}
+
+header {
+    color: #ff7315;
+    text-align: center;
+    font-size: 3em;
+}
+
+.encaisser {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 40%;
+    padding: 10px;
+    margin: 12px;
+    color: rgb(179, 32, 32);
+}
+
+#instructions {
+    color: white;
+}
+
+.instruction {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.plus {
+    background-color: #f67280;
+}
+
+.moins {
+    background-color: #ffa372;
+}
+
+.fini {
+    background-color: #0c9463;
+}
